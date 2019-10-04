@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/back"
+    android:gravity="center"
+    android:layout_height="350dp">
+
+    <TextView
+        android:id="@+id/name_pop"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:layout_alignBottom="@+id/attvalue_pop"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="127dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="25dp"
+        android:layout_marginBottom="165dp"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/tx1"
+        android:layout_width="20dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="126dp"
+        android:text=" : "
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/namevalue_pop"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:layout_alignBottom="@+id/attvalue_pop"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="127dp"
+        android:layout_marginBottom="165dp"
+        android:text="TextView" />
+
+
+    <TextView
+        android:id="@+id/tx2"
+        android:layout_width="20dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="214dp"
+        android:gravity="center"
+        android:text=" : "
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/att_pop"
+        android:layout_width="207dp"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="8dp"
+        android:text="Attendance" />
+
+
+    <TextView
+        android:id="@+id/tx3"
+        android:layout_width="20dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text=" : "
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/attvalue_pop"
+        android:layout_width="207dp"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:layout_marginBottom="8dp"
+        android:text="TextView" />
+
+
+    <TextView
+        android:id="@+id/roll_pop"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="89dp"
+        android:text="Roll_No" />
+
+    <TextView
+        android:id="@+id/rollvalue_pop"
+        android:layout_width="207dp"
+        android:textColor="@color/white"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="200dp"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="89dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_marginTop="21dp"
+        android:text="My Profile" />
+
+
+</RelativeLayout>

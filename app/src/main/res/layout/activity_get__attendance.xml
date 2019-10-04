@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context=".Get_Attendance">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <TextView
+            android:layout_width="match_parent"
+           android:layout_height="80dp"
+           android:textColor="@color/white"
+           android:text="GET ATTENDANCE"
+           android:textSize="40dp"/>
+
+       <EditText
+           android:id="@+id/getadate"
+           android:layout_width="380dp"
+           android:layout_height="50dp"
+           android:textSize="30dp"
+           android:text="Enter a date"
+           android:textColor="@color/white"
+           android:clickable="true"
+           android:editable="false"/>
+           
+       <CheckBox
+           android:id="@+id/checkBox37"
+           android:layoutDirection="rtl"
+           android:layout_marginTop="30dp"
+           android:layout_width="380dp"
+           android:layout_height="40dp"
+           android:checked="false"
+           android:textColor="@color/white"
+           android:layout_weight="1"
+           android:text="       31437                 Surabhi Nalamwar"/>
+       <CheckBox
+           android:id="@+id/checkBox38"
+           android:layoutDirection="rtl"
+           android:layout_width="380dp"
+           android:checked="false"
+           android:textColor="@color/white"
+           android:layout_height="40dp"
+           android:layout_weight="1"
+           android:text="       31438                 Nand Patel" />
+       <CheckBox
+           android:id="@+id/checkBox39"
+           android:layoutDirection="rtl"
+           android:layout_width="380dp"
+           android:checked="false"
+           android:textColor="@color/white"
+           android:layout_height="40dp"
+           android:layout_weight="1"
+           android:text="       31439                 Nayan Sabnis" />
+       <CheckBox
+           android:id="@+id/checkBox40"
+           android:layoutDirection="rtl"
+           android:layout_width="380dp"
+           android:textColor="@color/white"
+           android:checked="false"
+           android:layout_height="40dp"
+           android:layout_weight="1"
+           android:text="       31440                 Sanket Patil" />
+       <CheckBox
+           android:id="@+id/checkBox41"
+           android:layoutDirection="rtl"
+           android:layout_width="380dp"
+           android:checked="false"
+           android:textColor="@color/white"
+           android:layout_height="40dp"
+           android:layout_weight="1"
+           android:text="       31441                 Tanvi Patil" />
+       <CheckBox
+           android:id="@+id/checkBox42"
+           android:layoutDirection="rtl"
+           android:layout_width="380dp"
+           android:layout_height="40dp"
+           android:textColor="@color/white"
+           android:checked="false"
+           android:layout_weight="1"
+           android:text="       31442                 Varun Patil" />
+       <CheckBox
+           android:id="@+id/checkBox43"
+           android:layoutDirection="rtl"
+           android:layout_width="380dp"
+           android:checked="false"
+           android:textColor="@color/white"
+           android:layout_height="40dp"
+           android:layout_weight="1"
+           android:text="       31443                 Ankita Pawar" />
+       <CheckBox
+           android:id="@+id/checkBox44"
+           android:layoutDirection="rtl"
+           android:layout_width="380dp"
+           android:layout_height="40dp"
+           android:checked="false"
+           android:layout_weight="1"
+           android:textColor="@color/white"
+           android:text="       31444                 Kalyani Punpale" />
+       <CheckBox
+           android:id="@+id/checkBox45"
+           android:layoutDirection="rtl"
+           android:layout_width="380dp"
+           android:layout_height="40dp"
+           android:checked="false"
+           android:layout_weight="1"
+           android:textColor="@color/white"
+           android:text="       31445                 Rujuta Rajput" />
+       <CheckBox
+           android:id="@+id/checkBox46"
+           android:layoutDirection="rtl"
+           android:layout_width="380dp"
+           android:textColor="@color/white"
+           android:layout_height="40dp"
+           android:checked="false"
+           android:layout_weight="1"
+           android:text="       31446                 Prasad Ramphale" />
+       <CheckBox
+           android:id="@+id/checkBox47"
+           android:layoutDirection="rtl"
+           android:layout_width="380dp"
+           android:checked="false"
+           android:textColor="@color/white"
+           android:layout_height="40dp"
+           android:layout_weight="1"
+           android:text="       31447                 Krishna Rathi" />
+       <CheckBox
+           android:id="@+id/checkBox48"
+           android:layoutDirection="rtl"
+           android:layout_width="380dp"
+           android:layout_height="40dp"
+           android:textColor="@color/white"
+           android:checked="false"
+           android:layout_weight="1"
+           android:text="       31448                 Nikita Renuse" />
+       <CheckBox
+           android:id="@+id/checkBox49"
+           android:layoutDirection="rtl"
+           android:layout_width="380dp"
+           android:layout_height="40dp"
+           android:textColor="@color/white"
+           android:checked="false"
+           android:layout_weight="1"
+           android:text="       31449                 Rishi Rewadkar" />
+       <CheckBox
+           android:id="@+id/checkBox50"
+           android:layoutDirection="rtl"
+           android:checked="false"
+           android:textColor="@color/white"
+           android:layout_width="380dp"
+           android:layout_height="40dp"
+           android:layout_weight="1"
+           android:text="       31450                 Yash Rode" />
+       <CheckBox
+           android:id="@+id/checkBox51"
+           android:layoutDirection="rtl"
+           android:layout_width="380dp"
+           android:layout_height="40dp"
+           android:textColor="@color/white"
+           android:checked="false"
+           android:layout_weight="1"
+           android:text="       31451                 Sanam Palsule" />
+       <CheckBox
+           android:id="@+id/checkBox52"
+           android:layoutDirection="rtl"
+           android:layout_width="380dp"
+           android:layout_height="40dp"
+           android:checked="false"
+           android:textColor="@color/white"
+           android:layout_weight="1"
+           android:text="       31452                 Pratiksha Sancheti" />
+       <CheckBox
+           android:id="@+id/checkBox53"
+           android:layoutDirection="rtl"
+           android:layout_width="380dp"
+           android:layout_height="40dp"
+           android:checked="false"
+           android:layout_weight="1"
+           android:textColor="@color/white"
+           android:text="       31453                 Vaibhav Saraf" />
+       <CheckBox
+           android:id="@+id/checkBox54"
+           android:layoutDirection="rtl"
+           android:layout_width="380dp"
+           android:layout_height="40dp"
+           android:checked="false"
+           android:textColor="@color/white"
+           android:layout_weight="1"
+           android:text="       31454                 Sarang Malpure" />
+
+
+       <Button
+           android:id="@+id/done"
+           android:layout_width="80dp"
+           android:layout_height="31dp"
+           android:layout_marginStart="324dp"
+           android:layout_marginLeft="324dp"
+           android:layout_marginTop="60dp"
+           android:layout_marginEnd="19dp"
+           android:layout_marginRight="19dp"
+           android:layout_marginBottom="4dp"
+           android:background="@drawable/transparent"
+           android:text="Done"
+           android:textColor="@color/white"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent" />
+
+
+   </LinearLayout>
+
+</ScrollView>

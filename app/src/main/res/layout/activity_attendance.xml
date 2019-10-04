@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/back"
+    android:layout_height="match_parent"
+    tools:context=".Attendance">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:gravity="center">
+
+      <Button
+          android:id="@+id/student_Profile"
+          android:layout_width="176dp"
+          android:layout_height="164dp"
+          android:background="@drawable/circle_button"
+          android:text="Profile"
+          android:textColor="@color/white"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.524"
+          android:textSize="20dp"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent" />
+
+      <Button
+          android:id="@+id/get_att"
+          android:layout_width="176dp"
+          android:layout_height="164dp"
+
+          android:layout_marginTop="40dp"
+          android:text="Attendance"
+          android:textSize="20dp"
+          android:textColor="@color/white"
+          android:background="@drawable/circle_button"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.489"
+          app:layout_constraintStart_toStartOf="parent"
+          android:textColorHighlight="@color/white"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.148" />
+
+      <Button
+          android:id="@+id/att_notice_add"
+          android:layout_width="176dp"
+          android:layout_height="164dp"
+          android:background="@drawable/circle_button"
+          android:text="Add Notice"
+          android:textColor="@color/white"
+          android:textSize="20dp"
+          android:layout_marginTop="40dp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.523"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.873" />
+
+      <Button
+          android:id="@+id/back"
+          android:layout_width="151dp"
+          android:layout_height="40dp"
+          android:layout_marginTop="25dp"
+          android:layout_marginBottom="16dp"
+          android:layout_marginLeft="110dp"
+          android:background="@drawable/transparent"
+          android:text="@string/back"
+          android:textColor="@color/white" />
+
+
+  </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
