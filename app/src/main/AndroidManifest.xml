@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Event_Information"></activity>
+        <activity android:name=".record2"></activity>
+        <activity android:name=".lost" />
+        <activity android:name=".report" />
+        <activity android:name=".landf" />
+        <activity android:name=".Event_Information" />
         <activity android:name=".Add_notice" />
         <activity android:name=".Get_Attendance" />
         <activity android:name=".Add_Student" />
